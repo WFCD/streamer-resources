@@ -3,4 +3,4 @@
 ## StreamLabs
 
 ## Nightbot
-- [`!cetusclock`](/bots/nightbot/cetusclock)
+- [`!cetusclock`](/bots/nightbot/cetusclock.js)
