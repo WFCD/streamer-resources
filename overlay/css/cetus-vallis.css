@@ -3,14 +3,17 @@ div.panel-header:not(.cetus):not(.vallis), .navbar, .header-panel, .pull-left {
     display:none;
 }
 /* Drops times */
-.panel-header .list-group .list-group-item:nth-child(3) /* Uncomment to hide day/cold/warm/night , .panel-header .list-group .list-group-item:nth-child(1)*/ {
+.panel-header .list-group .list-group-item:nth-child(2) /* Uncomment to hide day/cold/warm/night*/ , .panel-header .list-group .list-group-item:nth-child(2) {
     visibility: hidden;
 }
 
-/* Commnet blow to help hide day/cold/warm/night */
+/* Comment below to help hide day/cold/warm/night */
 .panel-header .list-group .list-group-item:nth-child(1) .pull-right {
     margin-right: 5px!important;
-    width: 70px;
+    text-align: left;
+}
+.panel-header .list-group .list-group-item:nth-child(1) .pull-right {
+    margin-right: 5px!important;
     text-align: left;
 }
 
@@ -46,8 +49,8 @@ div.panel-header:not(.cetus):not(.vallis), .navbar, .header-panel, .pull-left {
 
 .vallis {
     position:absolute;
-    left: 0;
-    top: 25px;
+    left: 0!important;
+    top: 25px!important;
 }
 
 div#app.night, div, row {
@@ -67,4 +70,8 @@ body {
 /* Positioning */
 .pull-right {
     float: left;
+}
+
+body > #app {
+	padding: 0;
 }
