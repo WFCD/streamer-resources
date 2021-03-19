@@ -60,6 +60,10 @@ div#app.night, div, row {
     margin: 0;
 }
 
+#app{
+  padding-top:0;
+  padding-bottom:0;
+}
 
 /* Allows transparency */
 body {
